@@ -1,0 +1,29 @@
+{
+  "name": "waldz/php-multios-daemon",
+  "description": "Create long-running jobs, daemons, self recovering processes for any OS environment",
+  "license": "MIT",
+  "keywords": [
+    "php",
+    "daemon",
+    "cronjob"
+  ],
+  "authors": [
+    {
+      "name": "Valdas Petrulis",
+      "email": "petrulis.valdas@gmail.com",
+      "homepage": "https://lt.linkedin.com/in/valdaspetrulis",
+      "role": "Architect/Developer/DevOps"
+    }
+  ],
+  "type": "library",
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "MultiOSDaemon\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=5.3.0"
+  }
+}
+
